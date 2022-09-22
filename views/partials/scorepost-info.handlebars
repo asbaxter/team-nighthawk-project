@@ -1,0 +1,16 @@
+<article class="scorepost">
+  <div class="title">
+    <a href="/score/{{id}}">{{highscore}}</a>
+  </div>
+  <div class="meta">
+    Posted by
+    {{user.username}}
+    on
+    {{format_date created_at}}
+    |
+    <a href="/score/{{id}}">
+      {{comments.length}}
+      {{format_plural "comment" comments.length}}
+    </a>
+  </div>
+</article>

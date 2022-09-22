@@ -1,0 +1,22 @@
+<button style="margin-bottom: 10px;" onclick="window.location.href='/'">Back</button>
+{{> post-info post}}
+<p class="post-content">{{post.post_body}}</p>
+
+
+{{#if loggedIn}}
+  <form class="comment-form">
+    <div>
+      <textarea name="comment-body"></textarea>
+    </div>
+
+    <div>
+      <button type="submit">add comment</button>
+    </div>
+  </form>
+{{/if}}
+
+{{> comments post.comments}}
+
+{{#if loggedIn}}
+  <script src="/javascript/comment.js"></script>
+{{/if}}

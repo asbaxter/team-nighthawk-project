@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nosifer", cursive;
+}
+
+body {
+  background: darkslategray;
+}
+
+#canvas1 {
+  border: 5px solid black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#player,
+#layer1,
+#layer2,
+#layer3,
+#layer4,
+#layer5,
+#enemy_fly,
+#enemy_plant,
+#enemy_spider,
+#enemy_ghost,
+#enemy_ground_zombie,
+#fire,
+#collisionAnimation,
+#lives {
+  display: none;
+}
+
+#fullScreenButton,
+#fullScreenButton:active {
+  position: absolute;
+  color: black;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 2px solid black;
+  padding: 0 5px;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.game-nav {
+  position: absolute;
+  color: black;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 2px solid black;
+  background-color: white;
+  top: 10px;
+  left: 70%;
+  transform: translateX(-50%);
+  padding: 0 5px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}

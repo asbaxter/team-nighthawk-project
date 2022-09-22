@@ -1,0 +1,39 @@
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/stylesheets/stylesheet.css" />
+    <title>Video Game</title>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>
+          <a href="/">Team Nighthawk</a>
+        </h1>
+        <nav>
+          <a class="playNow" href="/game.html">Play Now</a>
+          {{#if loggedIn}}
+            <a href="/dashboard">User Dashboard</a>
+            <button id="logout" class="btn-no-style">logout</button>
+          {{else}}
+            <a href="/login">login</a>
+          {{/if}}
+        </nav>
+      </header>
+      <main>
+        {{{body}}}
+      </main>
+      <footer>
+        Thanks for visiting!
+      </footer>
+    </div>
+
+    {{#if loggedIn}}
+      <script src="/javascript/logout.js"></script>
+    {{/if}}
+  </body>
+
+</html>
