@@ -5,8 +5,8 @@ require("dotenv").config();
 
 let sequelize;
 
-if (process.env.JAWSDB_URL) {
-  sequelize = new Sequelize(process.env.JAWSDB_URL);
+if (process.env.RAILWAY_URL) {
+  sequelize = new Sequelize(process.env.RAILWAY_URL);
 } else {
   sequelize = new Sequelize(
     process.env.DB_NAME,
