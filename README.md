@@ -2,7 +2,7 @@
 
 ##  
 
-Live App URL: https://fast-ridge-15962.herokuapp.com/
+*HEROKU FREE TIER IS ENDING SO THE LIVE SITE IS DOWN. THE WEBPAGE IS COMING SOON ON VERCEL, FOR NOW PLEASE PULL AND RUN LOCALLY, JUST "NPM I" and run "NPM START". THE DATABASE IS HOST LIVE ON RAILWAY SO LOCAL REQUESTS WILL UPDATE THE LIVE DATABASE. 
 
 # Description
 This project was an opportunity to have fun and flex what we have learned so far as well as demonstrate our ability to learn quickly with the coding foundation that we have worked hard to attain. We created a RESTful API, utilized Handlebars.js as the templating engine, utitlized MySQL and Sequelize ORM for our database, created multiple GET, POST, PUT, DELETE routes for managing our data. This entire application is deployed to Heroku (with data). During the construction of this game we introduced many new concepts that we did not learn in class. Using the ability to find our solution and "think like a programmer" we were able to take these new concepts and manage them. Our folder structure meets the MVC paradigm and while our game is free to play for anyone the only way to interact with the other users is to have an account and be logged in/authenticated. We hope you enjoy our game and an early Happy Halloween!
